@@ -16,7 +16,7 @@ public class LogTestController {
 	public String logTest() {
 		String name = "Spring";
 		
-		log.info(" info log=" + name);
+		log.info(" info log=" + name); // 使用X
 
 		log.trace("trace log={}", name);
 		log.debug("debug log={}", name);
