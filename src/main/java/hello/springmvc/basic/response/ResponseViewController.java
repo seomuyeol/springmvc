@@ -22,4 +22,6 @@ public class ResponseViewController {
 		
 		return "response/hello";
 	}
+	
+	
 }
